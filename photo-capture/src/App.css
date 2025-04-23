@@ -40,3 +40,93 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  font-family: sans-serif;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.shot-list-uploader,
+.progress-tracker,
+.shot-detail-display,
+.webcam-capture,
+.image-review-panel,
+.finished-message,
+.error-message,
+.loading-message {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  border: 1px dashed #eee;
+  background-color: #f9f9f9;
+}
+
+.error-message {
+    color: red;
+    border-color: red;
+    background-color: #ffebee;
+    font-weight: bold;
+}
+
+.loading-message {
+    color: blue;
+    border-color: blue;
+    background-color: #e3f2fd;
+    font-weight: bold;
+}
+
+.finished-message {
+    text-align: center;
+    color: green;
+    border-color: green;
+    background-color: #e8f5e9;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+input[type="file"] {
+  margin-left: 10px;
+}
+
+.image-review-panel img {
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+    border: 1px solid #ddd;
+}
+
+.image-review-panel .button-group {
+    text-align: center;
+    margin-top: 10px;
+}
